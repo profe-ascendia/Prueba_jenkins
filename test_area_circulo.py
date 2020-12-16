@@ -1,7 +1,7 @@
 import unittest
 from math import pi
 from area_circulo import area
-
+#Modificado aquí
 class TestAreaCirculo(unittest.TestCase):
     def test_area_nulo(self):
         #c = area(None)
