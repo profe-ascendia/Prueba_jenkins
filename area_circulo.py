@@ -3,6 +3,7 @@ import math
 
 def area(radio): 
     #Refactorizado
+    #Cambiado
     
     if not type(radio) in [int, float] :
         raise TypeError('El radio debe ser un número entero o decimal mayor que cero')
