@@ -9,6 +9,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'ls'
+        sh 'python3 -m unittest dicover -v'
       }
     }
 
