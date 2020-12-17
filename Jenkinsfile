@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        sh 'apk install python3'
+        sh 'apk add python3'
       }
     }
 
