@@ -10,12 +10,16 @@ pipeline {
       steps {
         sh 'ls'
         sh 'uname -a'
+        sh 'apk add python3'
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        sh 'python3 -m unittest discover -v'
+        sh '''
+
+
+python3 -m unittest discover -v'''
       }
     }
 
