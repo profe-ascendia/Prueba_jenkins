@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('error') {
+    stage('') {
       steps {
-        sh 'apk add python3'
+        sh 'python3 -m unittest discover -v'
       }
     }
 
